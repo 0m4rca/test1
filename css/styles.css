@@ -120,7 +120,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right, rgba(69, 160, 160, 0.4), rgba(30, 61, 84, 0.4)), url(images/lobo.JPG);
+    background-image: linear-gradient(to right, rgba(69, 160, 160, 0.4), rgba(30, 61, 84, 0.4)), url="images/lobo.JPG";
     background-size: cover;
     background-position: bottom;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
