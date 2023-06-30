@@ -101,6 +101,7 @@ body {
     border-radius: 10rem;
     transition: all 0.2s;
     font-size: 1.6rem;
+    outline: none;
 }
 
 .btn:hover {
@@ -111,6 +112,12 @@ body {
 .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn:focus {
+    outline: none;
 }
 
 .btn-white {
