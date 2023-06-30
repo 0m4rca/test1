@@ -217,6 +217,9 @@ body {
 }
 
 @media screen and (max-device-width: 600px) {
+    body {
+        padding: 0px;
+    }
     .container2,
     .container3,
     .container4 {
@@ -228,9 +231,6 @@ body {
         grid-column: span 1;
     }
     .grid {
-        padding: 0;
-    }
-    .body {
         padding: 0;
     }
 }
