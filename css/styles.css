@@ -230,6 +230,9 @@ body {
     .grid {
         padding: 0;
     }
+    .body {
+        padding: 0;
+    }
 }
 
 footer {
