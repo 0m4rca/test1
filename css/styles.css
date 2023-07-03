@@ -147,6 +147,7 @@ body {
     border-radius: 10rem;
     transition: all 0.2s;
     font-size: 1.6rem;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .btn:hover {
