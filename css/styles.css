@@ -44,17 +44,6 @@ body {
     padding: 3rem;
 }
 
-
-/*esto se puede borrar despues*/
-
-h1,
-h2 {
-    color: rgb(30, 61, 84);
-}
-
-
-/*esto se puede borrar despues*/
-
 .u-center-text {
     text-align: center;
 }
@@ -165,6 +154,19 @@ body {
     color: #777;
 }
 
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn-blue {
+    background-color: rgb(42, 112, 131);
+    color: #fff;
+}
+
+.btn-blue::after {
+    background-color: #fff;
+}
+
 .btn-text:link,
 .btn-text:visited {
     font-size: 1.6rem;
@@ -188,11 +190,187 @@ body {
     transform: translateY(0);
 }
 
+.card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 50rem;
+}
+
+.card__side {
+    height: 50rem;
+    transition: all 0.8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card__side--front {
+    background-color: #fff;
+}
+
+.card__side--back {
+    background-color: green;
+    transform: rotateY(180deg);
+}
+
+.card__side--back-1 {
+    background-image: linear-gradient(to right bottom, #0099ff, #5d30ff);
+}
+
+.card__side--back-2 {
+    background-image: linear-gradient(to right bottom, rgb(69, 160, 160), rgb(30, 61, 84));
+}
+
+.card__side--back-3 {
+    background-image: linear-gradient(to right bottom, #2990ff, #43aefa);
+}
+
+.card__side--li {
+    list-style: none;
+}
+
+.card:hover .card__side--front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+    transform: rotateY(0);
+}
+
+.card__picture {
+    background-size: cover;
+    height: 23rem;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.card__picture--1 {
+    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.3), rgba(93, 48, 255, 0.3)), url(/images/buzo.jpeg);
+    background-position: center;
+}
+
+.card__picture--2 {
+    background-image: linear-gradient(to right bottom, rgba(69, 160, 160, 0.3), rgba(30, 61, 84, 0.3)), url(../images/gris.JPG);
+    background-position: center;
+}
+
+.card__picture--3 {
+    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.3), rgba(67, 174, 250, 0.3)), url(/images/tiburon.JPG);
+    background-position: center;
+}
+
+.card__heading {
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    width: 75%;
+}
+
+.card__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.card__heading-span--1 {
+    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.85), rgba(93, 48, 255, 0.85));
+}
+
+.card__heading-span--2 {
+    background-image: linear-gradient(to right bottom, rgba(69, 160, 160, 0.85), rgba(30, 61, 84, 0.85));
+}
+
+.card__heading-span--3 {
+    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.85), rgba(67, 174, 250, 0.85));
+}
+
+.card__details {
+    padding: 3rem;
+}
+
+.card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card__details ul li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card__details ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.card__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: #fff;
+}
+
+.card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.card__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(to right, rgb(69, 160, 160), rgb(30, 61, 84));
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+}
+
 .composition {
     position: relative;
+    height: 50vh;
 }
 
 .composition__photo {
+    overflow-y: auto;
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 0px;
@@ -226,13 +404,109 @@ body {
     transform: scale(0.9);
 }
 
+.form__group:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.form__input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: #999;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid rgb(42, 112, 131);
+}
+
+.form__input:focus:invalid {
+    border-bottom: 3px solid #5d30ff;
+}
+
+.form__input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.form__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form__input:-moz-placeholder-shown+.form__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+}
+
+.form__input:placeholder-shown+.form__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+}
+
+.form__radio-group {
+    width: 49%;
+    display: inline-block;
+}
+
+.form__radio-input {
+    display: none;
+}
+
+.form__radio-label {
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem;
+}
+
+.form__radio-button {
+    height: 3rem;
+    width: 3rem;
+    border: 5px solid rgb(42, 112, 131);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -0.4rem;
+}
+
+.form__radio-button::after {
+    content: "";
+    display: block;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(42, 112, 131);
+    opacity: 0;
+}
+
+.form__radio-input:checked~.form__radio-label .form__radio-button::after {
+    opacity: 1;
+}
+
 .header {
     height: 95vh;
     background-image: linear-gradient(to right, rgba(69, 160, 160, 0.4), rgba(30, 61, 84, 0.4)), url(../images/lobo.JPG);
     background-size: cover;
     background-position: bottom;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 }
 
@@ -280,27 +554,32 @@ body {
     text-align: center;
 }
 
-.grid {
-    display: grid;
-    grid-gap: 10px;
+.header__wave {
+    position: absolute;
+    bottom: -1rem;
+}
+
+.centered {
+    padding: 0 10%;
 }
 
 .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 1rem;
 }
 
 .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 1rem;
 }
 
 .container4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 6rem;
+    padding: 0 6rem;
 }
 
 .b2-3 {
@@ -313,7 +592,6 @@ body {
 
 .square {
     padding: 20px;
-    text-align: left;
 }
 
 @media screen and (max-device-width: 600px) {
@@ -335,10 +613,65 @@ body {
     }
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-about {
     background-color: #f7f7f7;
-    padding: 25rem 0;
-    margin-top: -20vh;
+    padding: 5rem 0;
+}
+
+.section-features {
+    background-color: #f7f7f7;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.section-features-image {
+    padding: 5rem 0;
+    height: 150vh;
+    background-image: linear-gradient(to right bottom, rgba(69, 160, 160, 0.8), rgba(30, 61, 84, 0.8)), url(../images/espiritu.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-features--wave-top {
+    position: absolute;
+    top: -1rem;
+}
+
+.section-features--wave-bottom {
+    position: absolute;
+    bottom: 4.5rem;
+}
+
+.section-tours {
+    background-color: #f7f7f7;
+    padding: 5rem 0 5rem 0;
+}
+
+.section-book {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, rgba(69, 160, 160, 0.9), rgba(30, 61, 84, 0.9));
+}
+
+.book {
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/balandra.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+}
+
+.book__form {
+    width: 50%;
+    padding: 6rem;
 }
 
 footer {

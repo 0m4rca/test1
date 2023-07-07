@@ -3,12 +3,13 @@
 
 <head>
     <title>Your Page</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a88fdff94a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,13 +37,169 @@
             </h1>
             <a href="#" class="btn btn-white btn-res">discover our tours</a>
         </div>
+        <svg class="header__wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f7f7f7" fill-opacity="1" d="M0,224L60,240C120,256,240,288,360,288C480,288,600,256,720,240C840,224,960,224,1080,224C1200,224,1320,224,1380,224L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
     </header>
 
     <main>
-        <section class="section-about grid">
+        <section class="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
-                    Exciting Dive Missions
+                    Popular tours
+                </h2>
+            </div>
+            <div class="container3">
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1">courses</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Discover scuba diving</li>
+                                    <li>Open water diver</li>
+                                    <li>Advanced open water</li>
+                                    <li>Rescue diver course</li>
+                                    <li>Dive master</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">only</p>
+                                    <ul class="card__side--li">
+                                        <li>DSD $240</li>
+                                        <li>OWD $600</li>
+                                        <li>AOW $500</li>
+                                        <li>RDC $800</li>
+                                    </ul>
+                                </div>
+                                <a href="#popup" class="btn btn-white btn-res">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">Seafari</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>7 hr toour</li>
+                                    <li>Up to 6 people</li>
+                                    <li>Beautiful beaches</li>
+                                    <li>Amazing sea creatures</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$180</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white btn-res">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">Scuba Diving</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>8 hr tour</li>
+                                    <li>Up to 6 people</li>
+                                    <li>2 dives</li>
+                                    <li>Lunch at the beach</li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$220</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white btn-res">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn-blue btn-res">see all tours</a>
+            </div>
+        </section>
+
+
+        <section class="section-features">
+            <svg class="section-features--wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f7f7f7" fill-opacity="1" d="M0,224L60,240C120,256,240,288,360,288C480,288,600,256,720,240C840,224,960,224,1080,224C1200,224,1320,224,1380,224L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+            </svg>
+            <div class="section-features-image">
+                <div class="container4">
+                    <div class="square feature-box">
+                        <i class=" feature-box__icon fa-regular fa-map"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Isla Espiritu Santo</h3>
+                        <p class="feature-box__text">
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <i class=" feature-box__icon fa-regular fa-heart"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the islands</h3>
+                        <p class="feature-box__text">
+                            see the islands around la paz
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <i class=" feature-box__icon fa-solid fa-shrimp"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the islands</h3>
+                        <p class="feature-box__text">
+                            see the islands around la paz
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <i class=" feature-box__icon fa-solid fa-fish"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Explore the islands</h3>
+                        <p class="feature-box__text">
+                            see the islands around la paz
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <svg class="section-features--wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f7f7f7" fill-opacity="1" d="M0,224L60,240C120,256,240,288,360,288C480,288,600,256,720,240C840,224,960,224,1080,224C1200,224,1320,224,1380,224L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            </svg>
+        </section>
+
+
+
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    About us
                 </h2>
             </div>
             <div class="container2">
@@ -57,43 +214,56 @@
                 </div>
                 <div class="square">
                     <div class="composition">
-                        <img src="images/manta.JPG" alt="Photo 1" class="composition__photo composition__photo--p1">
-                        <img src="images/espiritu.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                        <img src="images/balandra.JPG" alt="Photo 3" class="composition__photo composition__photo--p3">
+                        <img src="images/balandra.JPG" alt="Photo 1" class="composition__photo composition__photo--p1">
+                        <img src="images/brothers.JPG" alt="Photo 2" class="composition__photo composition__photo--p2">
+                        <img src="images/manta.JPG" alt="Photo 3" class="composition__photo composition__photo--p3">
                     </div>
                 </div>
             </div>
-            <div class="container3">
-                <div class="square">3</div>
-                <div class="square">4</div>
-                <div class="square">5</div>
-            </div>
-            <div class="container3">
-                <div class="square">6</div>
-                <div class="square b2-3">7</div>
-            </div>
-            <div class="container4">
-                <div class="square">8</div>
-                <div class="square">9</div>
-                <div class="square">10</div>
-                <div class="square">11</div>
-            </div>
-            <div class="container4">
-                <div class="square">12</div>
-                <div class="square">13</div>
-                <div class="square b2-3">14</div>
-            </div>
-            <div class="container4">
-                <div class="square">15</div>
-                <div class="square b3-4">16</div>
-            </div>
         </section>
 
-        <section class="grid">
-
-
+        <section class="section-book">
+            <div class="centered">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Start booking now
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="email address" id="email" required>
+                                <label for="email" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="small" name="size">
+                                    <label for="small" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Small tour group
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="large" name="size">
+                                    <label for="large" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        Large tour group
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <button class="btn btn-blue btn-res">Next step</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
-
 
     </main>
 
@@ -113,5 +283,6 @@
         });
     }
 </script>
+
 
 </html>
