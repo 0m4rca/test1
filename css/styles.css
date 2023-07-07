@@ -252,7 +252,7 @@ body {
 }
 
 .card__picture--1 {
-    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.3), rgba(93, 48, 255, 0.3)), url(/images/buzo.jpeg);
+    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.3), rgba(93, 48, 255, 0.3)), url(../images/buzo.jpeg);
     background-position: center;
 }
 
