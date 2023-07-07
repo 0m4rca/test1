@@ -262,7 +262,7 @@ body {
 }
 
 .card__picture--3 {
-    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.3), rgba(67, 174, 250, 0.3)), url(/images/tiburon.JPG);
+    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.3), rgba(67, 174, 250, 0.3)), url(../images/tiburon.JPG);
     background-position: center;
 }
 
