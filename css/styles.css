@@ -256,7 +256,7 @@ body {
 }
 
 .card__picture--1 {
-    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.3), rgba(93, 48, 255, 0.3)), url(/images/buzo.jpeg);
+    background-image: linear-gradient(to right bottom, rgba(0, 153, 255, 0.3), rgba(93, 48, 255, 0.3)), url(../images/buzo.jpeg);
     background-position: center;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .card__picture--3 {
-    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.3), rgba(67, 174, 250, 0.3)), url(/images/tiburon.JPG);
+    background-image: linear-gradient(to right bottom, rgba(41, 144, 255, 0.3), rgba(67, 174, 250, 0.3)), url(../images/tiburon.JPG);
     background-position: center;
 }
 
