@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Your Page</title>
@@ -9,12 +9,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a88fdff94a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" title="nave">
         <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
@@ -33,260 +32,325 @@
                     <a href="#" class="navigation__link"><span>05</span>Contact us</a></li>
             </ul>
         </nav>
+    </div>
+    <header class="header u-margin-bottom-small">
+        <div class="header__upper-bar">
+            <div class="header__logo-box">
+                <img src="images/logo1.png" alt="logo" class="header__logo">
+            </div>
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Dive with us</span>
+                <span class="heading-primary-sub">witness Baja Sur</span>
+            </h1>
+            <a href="#" class="btn btn-white btn-res u-margin-bottom-small u-margin-top-small">discover our tours</a>
+        </div>
+    </header>
 
-        <header class="header u-margin-bottom-small">
-            <div class="header__upper-bar">
-                <div class="header__logo-box">
+    <main>
+        <section class="section-wellcome u-padding-top-huge">
+            <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
+                <h2 class="heading-secondary">
+                    Welcome to La Paz
+                </h2>
+            </div>
+            <div class="container2">
+                <div class="square">
+                    <h3 class="heading-tertiary u-margin-bottom-small">We are your gateway to thrilling underwater adventures</h3>
+                    <p class="paragraph">Embark on an extraordinary journey and dive into the enigmatic waters of the Southern Baja Peninsula.
+                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">We know exactly where to take you!</h3>
+                    <p class="paragraph">Our team of expert scuba diving professionals will help you uncover the mysteries of this magical underwater realm.
+                    </p>
+                    <a href="#" class="btn-text btn-res">Learn more &rarr;</a>
+                </div>
+                <div class="square">
+                    <div class="composition">
+                        <img src="images/balandra.JPG" alt="Photo 1" class="composition__photo composition__photo--p1">
+                        <img src="images/brothers.JPG" alt="Photo 2" class="composition__photo composition__photo--p2">
+                        <img src="images/manta.JPG" alt="Photo 3" class="composition__photo composition__photo--p3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-features">
+            <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
+                <h2 class="heading-secondary">
+                    The play ground
+                </h2>
+            </div>
+            <div class="section-features-image">
+                <div class="container4">
+                    <div class="square feature-box">
+                        <svg class="feature-box__svg" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                            <defs>
+                              <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="0" />
+                                <stop offset="100%" stop-color="0" />
+                              </linearGradient>
+                            </defs>
+                            <path fill="url(#myGradient)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M14.392 18.372c-.574-1.234-.99-2.013.77-3.558c.85-10.428 14.722-14.074 18.849-.48a4.515 4.515 0 0 0 .131 1.77C37.216 21.893 38 30.26 37.57 34.816c1.064 2.146 2.238 3.142 3.558 2.597c.728 1.317 2.602 4.23-.096 4.712c-9.003.873-8.526.023-9.424-.577c-1.572 1.425-13.656.577-20.484.865c-1.364.005-3.066-.803-2.885-2.308c-2.748-1.52-4.286-10.37.9-9.294c.374-4.734 1.325-7.83 5.255-12.44Z"/>
+                            <path fill="url(#myGradient)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M18.01 42.373c3.362-2.703 3.455-5.657 3.628-8.282M8.237 40.106c.63-4.43 4.859-1.138 6.873-6.15"/>
+                            <path fill="url(#myGradient)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M9.137 30.812a10.155 10.155 0 0 0 1.927 6.34m20.542 4.397a11.23 11.23 0 0 0 5.963-6.732M22.08 12.638a.76.76 0 0 1-1.142-.105a.994.994 0 0 1 .379-1.223a.761.761 0 0 1 1.143.103a.993.993 0 0 1-.378 1.223m6.948.082a.911.911 0 0 1-1.13-.35a.708.708 0 0 1 .118-1.06a.91.91 0 0 1 1.13.35a.708.708 0 0 1-.117 1.059m-3.868 3.179l-.723-1.142l-.627-1.198l1.35-.055l1.351.055l-.627 1.198Z"/>
+                            <path fill="url(#myGradient)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="m25.163 15.847l-.024 1.106l-1.395.89m1.395-.889l1.594.883m-3.878-8.794l1.033 1.13m2.746.005l1.01-.89"/>
+                          </svg>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Espíritu Santo</h3>
+                        <p class="feature-box__text">
+                            Sea lion colonies, bird sanctuaries, beautiful bays and amazing colors, you have to see this national park!
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <svg class="feature-box__svg" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                            <defs>
+                              <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgb(0, 0, 0)" />
+                                <stop offset="100%" stop-color="rgb(0, 0, 0)" />
+                              </linearGradient>
+                            </defs>
+                            <path fill="url(#myGradient)" d="M21.732 21.732C115.44 146.675 131.057 256.001 115.44 334.09c16.476 5.492 27.146 9.056 34.75 13.402a404.063 404.063 0 0 0-14.605 4.815c-20.447 7.19-43.892 16.797-57.791 31.25c-14.689 15.274-23.998 40.669-30.81 62.767c-6.813 22.099-1.635 42.635-1.635 42.635s12.333-16.25 18.834-37.334c6.5-21.085 16.658-45.272 26.584-55.594c9.135-9.5 31.343-19.908 50.789-26.746c8.692-3.056 16.722-5.493 23.058-7.295c4.299 7.593 7.85 18.227 13.297 34.57c78.09-15.617 187.415 0 312.358 93.708C474.65 443.414 459.03 365.324 412.178 256c-9.776-29.327-13.43-52.534-10.969-69.623c15.121-2.598 24.97-12.368 31.266-22.035c6.821-10.474 11.285-20.903 17.302-26.92l-12.726-12.727c-9.6 9.6-14.16 21.383-19.658 29.825c-1.928 2.959-3.753 5.487-5.8 7.578c-46.029-15.344-46.347-15.662-61.69-61.692c2.09-2.046 4.618-3.871 7.577-5.799c8.442-5.498 20.224-10.057 29.825-19.658l-12.727-12.726c-6.017 6.017-16.446 10.48-26.92 17.302c-9.667 6.297-19.437 16.145-22.035 31.266c-17.09 2.462-40.296-1.193-69.623-10.969C146.676 52.97 68.586 37.35 21.732 21.732zM215.766 131.06h17.998c0 14.741 2.215 26.782 6.447 35.652c4.232 8.87 10.13 14.748 19.22 18.498l-6.863 16.639c-13.023-5.373-22.744-15.11-28.601-27.387c-5.858-12.276-8.201-26.909-8.201-43.402zm-41.553 2.51l17.967 1.052c-.767 13.08 2.013 31.07 9.017 47.291c7.005 16.22 18.026 30.535 33.139 38.285l-8.211 16.016c-19.896-10.202-33.258-28.194-41.451-47.166c-8.193-18.973-11.424-39.062-10.461-55.479zm152.578 119c3.75 9.09 9.628 14.988 18.498 19.22c8.87 4.232 20.91 6.447 35.652 6.447v17.998c-16.493 0-31.126-2.343-43.402-8.2c-12.276-5.858-22.014-15.579-27.387-28.602l16.639-6.864zm-34.988 25.095c7.75 15.113 22.064 26.134 38.285 33.139c16.22 7.004 34.211 9.784 47.29 9.017l1.054 17.967c-16.417.963-36.506-2.268-55.479-10.46c-18.972-8.194-36.964-21.556-47.166-41.452l16.016-8.21z"/>
+                          </svg>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Isla Cerralvo</h3>
+                        <p class="feature-box__text">
+                            Also known as Jacques Cousteau Island, this beautiful destination is surrounded by incredible marine life!
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <svg class="feature-box__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                            <defs>
+                              <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="rgb(0, 0, 0)" />
+                                <stop offset="100%" stop-color="rgb(0, 0, 0)" />
+                              </linearGradient>
+                            </defs>
+                            <mask id="ipSWhale0">
+                              <g fill="none">
+                                <path fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M16.07 13c-9.817.35-11.394 8.006-10.956 11.791c-1.753 3.145-1.218 3.93.096 5.24c6.574 6.115 18.843 5.678 24.54 3.495c5.96-2.446 8.999-7.051 9.29-9.526c5.26-3.494 5.366-9.399 4.636-11c-.78 1.31-3.029 2.272-4.635 3c-1.753.35-4.275-.962-5.005-2.127c-.502 2.627 0 4.627 1.314 5.678c2.288 1.747 1.125 3.512.687 3.949c-1.896 1.89-5.506.99-7.26-1.766C24.053 14.31 18.99 13 16.07 13Z" />
+                                <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 28c2.833.532 8.4 1.554 12-1" />
+                                <circle cx="12" cy="20" r="2" fill="#000" />
+                              </g>
+                            </mask>
+                            <path fill="url(#myGradient)" d="M0 0h48v48H0z" mask="url(#ipSWhale0)" />
+                          </svg>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Bahía Magdalena</h3>
+                        <p class="feature-box__text">
+                            Encounter gray whales, sunken ships, and submarines - just a glimpse of the secrets of this bay!
+                        </p>
+                    </div>
+                    <div class="square feature-box">
+                        <svg class="feature-box__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <defs>
+                              <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#ff0000" />
+                                <stop offset="100%" stop-color="#00ff00" />
+                              </linearGradient>
+                            </defs>
+                            <path fill="url(#myGradient)" d="M15.56 9.09C14.66 7.18 12.54 6 11 6c.47 1.4.28 2.57-.05 3.43C8.45 10 6 11 6 11S3 7 1 7l2 6l-1 4c2 0 4-3 4-3s5 2 8 2v2c.65 0 1.91-.83 2.73-2.23c1.24-.21 2.27-.56 3.14-.96c-.15-.18-.34-.37-.59-.51c-.65-.39-1.46-.63-2.28-.8c.82-.16 1.67-.28 2.59-.15c.46.06.95.19 1.41.51c.1.06.17.14.24.19C22.4 13.26 23 12.44 23 12c0-.87-3.81-2.5-7.44-2.91M18 12c-.55 0-1-.45-1-1c0-.24.1-.45.23-.62c.61.12 1.2.29 1.74.46c.03.05.03.1.03.16c0 .55-.45 1-1 1Z"/>
+                          </svg>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Cabo Pulmo</h3>
+                        <p class="feature-box__text">
+                            A prime example of a marine protected area, this national park is filled with surprises and wonders!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tours">
+            <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
+                <h2 class="heading-secondary">
+                    Popular Activities
+                </h2>
+            </div>
+            <div class="container3">
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--1"> PADI OWD</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>Knowledge development (PADI ebook)</li>
+                                    <li>Confined Water skills</li>
+                                    <li>Open water section</li>
+                                    <li>4 open water dives</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-1">
+                            <div class="card__cta">
+
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$700</p>
+                                </div>
+
+                                <a href="#popup" class="btn btn-white btn-res">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--2">Seafari</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>6 hr tour</li>
+                                    <li>Up to 6 people</li>
+                                    <li>Beautiful beaches</li>
+                                    <li>Amazing sea creatures</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-2">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$180</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white btn-res">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card__heading">
+                                <span class="card__heading-span card__heading-span--3">Scuba Diving</span>
+                            </h4>
+                            <div class="card__details">
+                                <ul>
+                                    <li>8 hr tour</li>
+                                    <li>Up to 6 people</li>
+                                    <li>2 dives</li>
+                                    <li>Lunch at the beach</li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back card__side--back-3">
+                            <div class="card__cta">
+                                <div class="card__price-box">
+                                    <p class="card__price-only">Only</p>
+                                    <p class="card__price-value">$220</p>
+                                </div>
+                                <a href="#popup" class="btn btn-white btn-res ">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-huge">
+                <a href="#" class="btn btn-blue btn-res u-margin-bottom-small u-margin-top-small">see all tours</a>
+            </div>
+        </section>
+
+        <section class="section-contact">
+            <div class="centered">
+                <div class="contact">
+                    <div class="contact__form">
+                        <form action="#" class="form">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Get in touch
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Full name" id="name" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="email address" id="email" required>
+                                <label for="email" class="form__label">email address</label>
+                            </div>
+
+                            <div class="form__group">
+                                <textarea class="form__input" placeholder="Your message" id="message" required></textarea>
+                                <label for="message" class="form__label">Your message</label>
+                            </div>
+
+                            <div class="form__group u-margin-bottom-medium">
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="small" name="size">
+                                    <label for="small" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        whatsapp
+                                    </label>
+                                </div>
+                                <div class="form__radio-group">
+                                    <input type="radio" class="form__radio-input" id="large" name="size">
+                                    <label for="large" class="form__radio-label">
+                                        <span class="form__radio-button"></span>
+                                        email
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <button class="btn btn-blue btn-res" id="send-button" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bar">
+            <div class="footer__logo-box">
+                <div class="footer__logo-box">
                     <img src="images/logo1.png" alt="logo" class="header__logo">
                 </div>
             </div>
-            <div class="header__text-box">
-                <h1 class="heading-primary">
-                    <span class="heading-primary-main">Dive with us</span>
-                    <span class="heading-primary-sub">witness Baja Sur</span>
-                </h1>
-                <a href="#" class="btn btn-white btn-res u-margin-bottom-small u-margin-top-small">discover our tours</a>
+
+            <div class="footer__social">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer__social-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <title>Twitter</title>
+                        <path fill="#f7f7f7" d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"/>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer__social-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <title>Facebook</title>
+                        <path fill="#f7f7f7" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="footer__social-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <title>Instagram</title>
+                        <path fill="#f7f7f7" d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07c0 1.22.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28z"/>
+                    </svg>
+                </a>
             </div>
-        </header>
+        </div>
 
-        <main>
-            <section class="section-wellcome">
-                <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
-                    <h2 class="heading-secondary">
-                        Wellcome
-                    </h2>
-                </div>
-                <div class="container2">
-                    <div class="square">
-                        <h3 class="heading-tertiary u-margin-bottom-small">We are your gateway to thrilling underwater adventures</h3>
-                        <p class="paragraph">Embark on an Extraordinary Journey: Dive into the Enigmatic Waters of the Southern Baja Peninsula.
-                        </p>
-                        <h3 class="heading-tertiary u-margin-bottom-small">We know exactly where to take you!</h3>
-                        <p class="paragraph">Join our team of expert scuba diving professionals and Uncover the Mysteries of this Magical Underwater Realm.
-                        </p>
-                        <a href="#" class="btn-text btn-res">Learn more &rarr;</a>
-                    </div>
-                    <div class="square">
-                        <div class="composition">
-                            <img src="images/balandra.JPG" alt="Photo 1" class="composition__photo composition__photo--p1">
-                            <img src="images/brothers.JPG" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="images/manta.JPG" alt="Photo 3" class="composition__photo composition__photo--p3">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-features">
-                <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
-                    <h2 class="heading-secondary">
-                        The play ground
-                    </h2>
-                </div>
-                <div class="section-features-image">
-                    <div class="container4">
-                        <div class="square feature-box">
-                            <i class="feature-box__icon fa-regular fa-map"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Isla Espíritu Santo</h3>
-                            <p class="feature-box__text">
-                                Explore the breathtaking bays, cliffs, rocky features, and amazing wildlife of this extraordinary national park.
-                            </p>
-                        </div>
-                        <div class="square feature-box">
-                            <i class="feature-box__icon fa-regular fa-heart"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Isla Cerralvo</h3>
-                            <p class="feature-box__text">
-                                Also known as Jacques Cousteau Island, this beautiful destination is surrounded by incredible marine life.
-                            </p>
-                        </div>
-                        <div class="square feature-box">
-                            <i class="feature-box__icon fa-solid fa-shrimp"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Bahía Magdalena</h3>
-                            <p class="feature-box__text">
-                                Encounter gray whales, marlin hunting sardines, sunken ships, and submarines - just a glimpse of the secrets that this bay holds.
-                            </p>
-                        </div>
-                        <div class="square feature-box">
-                            <i class="feature-box__icon fa-solid fa-fish"></i>
-                            <h3 class="heading-tertiary u-margin-bottom-small">Cabo Pulmo</h3>
-                            <p class="feature-box__text">
-                                A prime example of a marine protected area, this national park is filled with surprises and wonders.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-tours">
-                <div class="u-center-text u-margin-bottom-medium u-margin-top-medium">
-                    <h2 class="heading-secondary">
-                        Popular Activities
-                    </h2>
-                </div>
-                <div class="container3">
-                    <div class="square">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--1">
-                                    &nbsp;
-                                </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--1"> PADI OWD</span>
-                                </h4>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>Knowledge development (ebook)</li>
-                                        <li>Confined Water skills</li>
-                                        <li>Open water section</li>
-                                        <li>4 open water dives</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-1">
-                                <div class="card__cta">
-
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$700</p>
-                                    </div>
-
-                                    <a href="#popup" class="btn btn-white btn-res">Book now!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--2">
-                                    &nbsp;
-                                </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--2">Seafari</span>
-                                </h4>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>6 hr tour</li>
-                                        <li>Up to 6 people</li>
-                                        <li>Beautiful beaches</li>
-                                        <li>Amazing sea creatures</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-2">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$180</p>
-                                    </div>
-                                    <a href="#popup" class="btn btn-white btn-res">Book now!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="card">
-                            <div class="card__side card__side--front">
-                                <div class="card__picture card__picture--3">
-                                    &nbsp;
-                                </div>
-                                <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">Scuba Diving</span>
-                                </h4>
-                                <div class="card__details">
-                                    <ul>
-                                        <li>8 hr tour</li>
-                                        <li>Up to 6 people</li>
-                                        <li>2 dives</li>
-                                        <li>Lunch at the beach</li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card__side card__side--back card__side--back-3">
-                                <div class="card__cta">
-                                    <div class="card__price-box">
-                                        <p class="card__price-only">Only</p>
-                                        <p class="card__price-value">$220</p>
-                                    </div>
-                                    <a href="#popup" class="btn btn-white btn-res ">Book now!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn-blue btn-res u-margin-bottom-small u-margin-top-small">see all tours</a>
-                </div>
-            </section>
-
-            <section class="section-book">
-                <div class="centered">
-                    <div class="book">
-                        <div class="book__form">
-                            <form action="#" class="form">
-                                <div class="u-margin-bottom-medium">
-                                    <h2 class="heading-secondary">
-                                        Contact us
-                                    </h2>
-                                </div>
-                                <div class="form__group">
-                                    <input type="text" class="form__input" placeholder="Full name" id="name" required>
-                                    <label for="name" class="form__label">Full name</label>
-                                </div>
-                                <div class="form__group">
-                                    <input type="email" class="form__input" placeholder="email address" id="email" required>
-                                    <label for="email" class="form__label">Full name</label>
-                                </div>
-                                <div class="form__group u-margin-bottom-medium">
-                                    <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="small" name="size">
-                                        <label for="small" class="form__radio-label">
-                                        <span class="form__radio-button"></span>
-                                        seafari
-                                    </label>
-                                    </div>
-                                    <div class="form__radio-group">
-                                        <input type="radio" class="form__radio-input" id="large" name="size">
-                                        <label for="large" class="form__radio-label">
-                                        <span class="form__radio-button"></span>
-                                        Dive excurtion
-                                    </label>
-                                    </div>
-                                </div>
-                                <div class="form__group">
-                                    <button class="btn btn-blue btn-res">Next step</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="footer">
-            <div class="footer__bar">
-                <div class="footer__logo-box">
-                    <div class="footer__logo-box">
-                        <img src="images/logo1.png" alt="logo" class="header__logo">
-                    </div>
-                </div>
-                <div class="footer__social">
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="footer__social-icon fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="footer__social-icon fab fa-instagram"></i></a>
-                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="footer__social-icon fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-            <div class="footer-navigation">
-                <ul class="footer__list">
-                    <li class="footer__item"><a href="" class="footer__link">Company</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">Contact us</a></li>
-                    <li class="footer__item"><a href="" class="footer__link">Carrers</a></li>
-                </ul>
-            </div>
-            <p class="footer__copyright">&copy; 2023 CICLES, inspired in Jonas Schmedtmann's work. All rights reserved.</p>
-        </footer>
+        <div class="footer-navigation">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="" class="footer__link">Company</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Contact us</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Carrers</a></li>
+            </ul>
+        </div>
+        <p class="footer__copyright">&copy; 2023 CICLES, inspired in Jonas Schmedtmann's work. All rights reserved.</p>
+    </footer>
 </body>
 
 <script>
