@@ -89,6 +89,10 @@ body {
     margin-top: 6rem
 }
 
+.u-margin-top-huge {
+    margin-top: 8rem
+}
+
 .u-margin-bottom-small {
     margin-bottom: 2rem
 }
@@ -115,6 +119,10 @@ body {
 
 .u-padding-top-huge {
     padding-top: 10rem
+}
+
+.u-padding-bottom-big {
+    padding-bottom: 5rem
 }
 
 body {
@@ -172,7 +180,7 @@ body {
 
 @media(max-width: 25.93em) {
     .heading-primary-sub {
-        font-size: 1.75rem
+        letter-spacing: 1.5rem
     }
 }
 
@@ -913,7 +921,7 @@ main {
 
 @media(max-width: 34.37em) {
     .section-tours {
-        padding: 0 0rem
+        padding: 3rem 0rem
     }
 }
 
